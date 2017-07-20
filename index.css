@@ -22,10 +22,34 @@ body{
 }
 /*end page css*/
 
+/*start header css*/
+.header .header-left{
+  float: left;
+}
+.header .header-right{
+  float: right;
+}
+/*end header css*/
+
+/*start navbar css*/
+.navbar{
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar .item{
+  padding: 15px;
+  cursor: pointer;
+}
+.navbar .item.active{
+  border-bottom: 5px solid blue;
+}
+/*end navber css*/
+
 /*start branch css*/
 .branch{
   width: 150px;
-  border: 1px solid blue;
 }
 .branch .text{
   display: inline-block;
