@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box
+}
+body{
+  margin: 0;
+}
+/*start page css*/
+.page{
+  width: 495px;
+  margin: auto;
+  text-align: center;
+}
+.page .header{
+  height: 50px;
+  border: 1px solid red;
+}
+.page .content{
+  border: 1px solid red;
+  min-height: 500px;
+}
+.page .footer{
+  height: 50px;
+  border: 1px solid red;
+}
+/*end page css*/
+
+/*start header css*/
+.header .header-left{
+  float: left;
+}
+.header .header-right{
+  float: right;
+}
+/*end header css*/
+/*start mutil column css*/
+.mutil-column{
+  height: 100%
+}
+.mutil-column .col-50{
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+.mutil-column .pull-left > *{
+  float: left;
+}
+.mutil-column .pull-right > *{
+  float: right;
+}
+/*end mutil column css*/
+/*start slider css*/
+
+.slider{
+  position: relative;
+  height: 200px;
+  background-image: url("image/slider.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px 80px;
+}
+.slider .slider-content{
+
+}
+.slider .slider-content .photo{
+  width: 135px;
+  height: 100%;
+}
+.slider .slider-content .title{
+  margin: 10px 0;
+  font-weight: initial;
+}
+.slider .slider-content .text{
+  margin: 10px 0;
+}
+
+/*end slider css*/
+
+/*start prev next icon css*/
+.prev{
+  font-size: 40px;
+  left: 20px;
+  top: calc(50% - 20px);
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.prev .prev-icon:before{
+  content:'\003C';
+}
+.next{
+  font-size: 40px;
+  right: 20px;
+  top: calc(50% - 20px);
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.next .next-icon:before{
+  content:'\003E';
+}
+/*end prev next icon css*/
+
+/*start signup button css*/
+.signup-button{
+  background-color: #4f94f1;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  border: 1px solid #4f94f1;
+  cursor: pointer;
+}
+.signup-button .signup-button-text {}
+.signup-button .signup-button-text::before {
+  content: '\2714';
+  margin-right: 5px;
+  border-radius: 50%;
+  color: #4f94f1;
+  background-color: white;
+  padding: 3px;
+}
+/*end signup button css*/
+
+/*start text align css*/
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+/*end text align css*/
+.copy-right{
+  color: #514a4a;
+  text-decoration-line: none;
+}
