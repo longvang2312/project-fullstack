@@ -10,7 +10,6 @@ body{
 .page .header{
   height: 50px;
   border: 1px solid red;
-  padding: 2px 0 2px 20px;
 }
 .page .content{
   border: 1px solid red;
@@ -30,38 +29,6 @@ body{
   float: right;
 }
 /*end header css*/
-
-/*start navbar css*/
-.navbar{
-  display: inline-flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.navbar .item{
-  padding: 15px;
-  cursor: pointer;
-}
-.navbar .item.active{
-  border-bottom: 5px solid blue;
-}
-/*end navber css*/
-
-/*start branch css*/
-.branch{
-  width: 150px;
-}
-.branch .text{
-  display: inline-block;
-  font-size: 20px;
-  vertical-align: middle;
-}
-.branch .image{
-  display: inline-block;
-  vertical-align: middle;
-  padding-right: 5px;
-}
-/*end branch css*/
 .copy-right{
   color: #514a4a;
   text-decoration-line: none;
