@@ -133,6 +133,12 @@ body{
   color: white;
   cursor: pointer;
 }
+.next-icon:before{
+  content:'\003E';
+}
+.prev-icon:before{
+  content:'\003C';
+}
 /*end prev next icon css*/
 
 /*start signup button css*/
@@ -163,12 +169,6 @@ body{
 /*end text align css*/
 
 /*start icon css*/
-.next-icon:before{
-  content:'\003E';
-}
-.prev-icon:before{
-  content:'\003C';
-}
 .check-icon {
     display: table-cell;
     vertical-align: middle;
