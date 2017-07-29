@@ -86,9 +86,6 @@ body{
   color: white;
   cursor: pointer;
 }
-.prev .prev-icon:before{
-  content:'\003C';
-}
 .next{
   font-size: 40px;
   right: 20px;
@@ -97,9 +94,6 @@ body{
   font-weight: bold;
   color: white;
   cursor: pointer;
-}
-.next .next-icon:before{
-  content:'\003E';
 }
 /*end prev next icon css*/
 
@@ -112,14 +106,9 @@ body{
   border: 1px solid #4f94f1;
   cursor: pointer;
 }
-.signup-button .signup-button-text {}
-.signup-button .signup-button-text::before {
-  content: '\2714';
-  margin-right: 5px;
-  border-radius: 50%;
-  color: #4f94f1;
-  background-color: white;
-  padding: 3px;
+.signup-button .signup-button-text {
+    display: table-cell;
+    vertical-align: middle;
 }
 /*end signup button css*/
 
@@ -134,6 +123,35 @@ body{
   text-align: center;
 }
 /*end text align css*/
+
+/*start icon css*/
+.next-icon:before{
+  content:'\003E';
+}
+.prev-icon:before{
+  content:'\003C';
+}
+.check-icon {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.check-icon::before {
+    content: '\2714';
+    border-radius: 50%;
+    color: #4f94f1;
+    background-color: white;
+    padding: 3px;
+    font-size: 14px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+} 
+/*end icon css*/
+
 .copy-right{
   color: #514a4a;
   text-decoration-line: none;
