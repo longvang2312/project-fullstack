@@ -16,7 +16,6 @@ body{
 }
 .page .content{
   border: 1px solid red;
-  min-height: 500px;
   text-align: center;
 }
 .page .footer{
@@ -189,7 +188,57 @@ body{
     vertical-align: middle;
 } 
 /*end icon css*/
-
+/*start mutil column css*/
+.mutil-column{
+  height: 100%
+}
+.mutil-column__col-30{
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+.mutil-column__col-70{
+    width: 70%;
+    float: left;
+    height: 100%;
+}
+.mutil-column__col-50{
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+.pull-left > *{
+  float: left;
+}
+.pull-right > *{
+  float: right;
+}
+/*end mutil column css*/
+/*start shopping-cart css  */
+ .shopping-cart{
+ }
+  .shopping-cart__content{
+     text-align: center;
+ }
+ .shopping-cart__title{
+     color: #514a4a;
+ }
+ .shopping-cart__image{
+    height: 150px
+ }
+ .shopping-cart__info{
+     text-align: left;
+ }
+ 
+ .shopping-cart__info__title{
+     font-size: 20px;
+     left: 0;
+ }
+ 
+ .shopping-cart__info__desc{
+     color: #514a4a;
+ }
+ /*end shopping-cart css  */ 
 .copy-right{
   color: #514a4a;
   text-decoration-line: none;
