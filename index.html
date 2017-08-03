@@ -1,67 +1,62 @@
 <!doctype html>
 <html>
-
 <head>
     <title>Exercise HTML and CSS</title>
     <link href="index.css" rel="stylesheet" />
 </head>
-
 <body>
     <div class="page">
-        <div class="header">
+        <div class="page__header">
            <div class="mutil-column">
-                <div class="col-30 pull-left">
+                <div class="mutil-column__col-30 pull-left">
                     <div class="branch">
-                        <img class="logo" src="image/logo.png">
-                        <span class="text">Prechu</span>
+                        <img class="branch__logo" src="image/logo.png">
+                        <span class="branch__text">Prechu</span>
                     </div>
                 </div>
-                <div class="col-70 pull-right">
+                <div class="mutil-column__col-70 pull-right">
                     <ul class="main-nav">
-                        <li class="item">
-                            <a href="" class="title">Home</a>
+                        <li class="main-nav__item">
+                            <a href="" class="main-nav__item__title">Home</a>
                         </li>
-                        <li class="item active">
-                            <a href="" class="title">Products</a>
+                        <li class="main-nav__item--active">
+                            <a href="" class="main-nav__item__title">Products</a>
                         </li>
-                        <li class="item">
-                            <a href="" class="title">Service</a>
+                        <li class="main-nav__item">
+                            <a href="" class="main-nav__item--active__title">Service</a>
                         </li>
-                        <li class="item">
-                            <a href="" class="title">Contact</a>
+                        <li class="main-nav__item">
+                            <a href="" class="main-nav__item__title">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="content">
+        <div class="page__content">
             <div class="slider">
                 <a class="prev">
-                    <i class="prev-icon"></i>
+                    <i class="prev__icon"></i>
                 </a>
                 <a class="next">
-                    <i class="next-icon"></i>
+                    <i class="next__icon"></i>
                 </a>
-                <div class="slider-content">
+                <div class="slider__content">
                     <div class="mutil-column">
-                        <div class="col-50 pull-left">
-                            <img class="photo" src="image/iphone.png" alt="Disscussion">
+                        <div class="mutil-column__col-50 pull-left">
+                            <img class="slider__content__photo" src="image/iphone.png" alt="Disscussion">
                         </div>
-                        <div class="col-50 text-left">
-                            <h2 class="title">Lorem Ipsum is simply</h2>
-                                <p class="text">dummy text of the printing & typesetting</p>
-                                <button class="signup-button"><i class="check-icon"></i><span class="signup-button-text">Sign up now</span></button>
+                        <div class="mutil-column__col-50 text-left">
+                            <h2 class="slider__content__title">Lorem Ipsum is simply</h2>
+                                <p class="slider__content__text">dummy text of the printing & typesetting</p>
+                                <button class="signup-button"><i class="check-icon"></i><span class="signup-button__text">Sign up now</span></button>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer">
+        <div class="page__footer">
             <a class="copy-right" href='#'>Copy right 2012-1013 cssauthor.com</a>
         </div>
     </div>
-
 </body>
-
 </html>

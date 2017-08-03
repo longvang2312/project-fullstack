@@ -9,17 +9,17 @@ body{
   width: 495px;
   margin: auto;
 }
-.page .header{
+.page__header{
   height: 50px;
   border: 1px solid red;
   padding: 0 20px;
 }
-.page .content{
+.page__content{
   border: 1px solid red;
   min-height: 500px;
   text-align: center;
 }
-.page .footer{
+.page__footer{
   height: 50px;
   border: 1px solid red;
   text-align: center;
@@ -31,10 +31,10 @@ body{
     width: 100%;
     height: 100%;
 }
-.branch .logo{
+.branch__logo{
     vertical-align: middle;
 }
-.branch .text{
+.branch__text{
     vertical-align: middle;
 }
 /*end branch css*/
@@ -44,19 +44,23 @@ body{
    display: flex;
    margin: auto;
 }
-.main-nav .item{
+.main-nav__item{
     padding: 10px;
     display: inline-block;
 }
-.main-nav .item .title{
+.main-nav__item__title{
    text-decoration: none;
    color: black
 }
-.main-nav .item.active{
+.main-nav__item--active{
+   padding: 10px;
+   display: inline-block;
    border-bottom: 5px solid blue;
    margin-bottom: -5px;
 }
-.main-nav .item.active .title{
+.main-nav__item--active__title{
+  text-decoration: none;
+   color: black
 }
 /*end main nav css*/
 
@@ -64,25 +68,25 @@ body{
 .mutil-column{
   height: 100%
 }
-.mutil-column .col-30{
+.mutil-column__col-30{
     width: 30%;
     float: left;
     height: 100%;
 }
-.mutil-column .col-70{
+.mutil-column__col-70{
     width: 70%;
     float: left;
     height: 100%;
 }
-.mutil-column .col-50{
+.mutil-column__col-50{
   width: 50%;
   float: left;
   height: 100%;
 }
-.mutil-column .pull-left > *{
+.pull-left > *{
   float: left;
 }
-.mutil-column .pull-right > *{
+.pull-right > *{
   float: right;
 }
 /*end mutil column css*/
@@ -97,18 +101,18 @@ body{
   color: white;
   padding: 20px 80px;
 }
-.slider .slider-content{
+.slider__content{
 
 }
-.slider .slider-content .photo{
+.slider__content__photo{
   width: 135px;
   height: 100%;
 }
-.slider .slider-content .title{
+.slider__content__title{
   margin: 10px 0;
   font-weight: initial;
 }
-.slider .slider-content .text{
+.slider__content__text{
   margin: 10px 0;
 }
 
@@ -133,10 +137,10 @@ body{
   color: white;
   cursor: pointer;
 }
-.next-icon:before{
+.next__icon:before{
   content:'\003E';
 }
-.prev-icon:before{
+.prev__icon:before{
   content:'\003C';
 }
 /*end prev next icon css*/
@@ -150,7 +154,7 @@ body{
   border: 1px solid #4f94f1;
   cursor: pointer;
 }
-.signup-button .signup-button-text {
+.signup-button__text {
     display: table-cell;
     vertical-align: middle;
 }
