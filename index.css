@@ -67,7 +67,7 @@ body{
 .mutil-column{
   height: 100%
 }
-.mutil-column__col-30{
+.mutil-column .col-30{
     width: 30%;
     float: left;
     height: 100%;
@@ -92,13 +92,13 @@ body{
 /*start slider css*/
 
 .slider{
-  position: relative;
-  height: 200px;
-  background-image: url("image/slider.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: white;
-  padding: 20px 80px;
+    position: relative;
+    height: 200px;
+    background-image: url("image/slider.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    padding: 20px 80px;
 }
 .slider__content{
 
@@ -153,7 +153,7 @@ body{
   border: 1px solid #4f94f1;
   cursor: pointer;
 }
-.signup-button__text {
+.signup-button .signup-button-text {
     display: table-cell;
     vertical-align: middle;
 }
@@ -205,18 +205,18 @@ body{
 .services__item{
      text-align: center;
  }
- 
+
  .services__item__title{
     color:#4f94f1;
     margin: 20px 10px 10px;
  }
- 
+
  .services__item__desc{
      color:#514a4a;
      margin: 0 10px;
  }
- /*end services block  */ 
+ /*end services block  */
 .copy-right{
-  color: #514a4a;
-  text-decoration-line: none;
+    color: #514a4a;
+    text-decoration-line: none;
 }
