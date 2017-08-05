@@ -64,20 +64,20 @@ body{
 /*end main nav css*/
 
 /*start mutil column css*/
-.mutil-column{
+.multi-column{
   height: 100%
 }
-.mutil-column .col-30{
+.multi-column__col-30{
     width: 30%;
     float: left;
     height: 100%;
 }
-.mutil-column__col-70{
+.multi-column__col-70{
     width: 70%;
     float: left;
     height: 100%;
 }
-.mutil-column__col-50{
+.multi-column__col-50{
   width: 50%;
   float: left;
   height: 100%;
@@ -153,7 +153,7 @@ body{
   border: 1px solid #4f94f1;
   cursor: pointer;
 }
-.signup-button .signup-button-text {
+.signup-button__text {
     display: table-cell;
     vertical-align: middle;
 }
