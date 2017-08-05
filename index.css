@@ -16,7 +16,6 @@ body{
 }
 .page__content{
   border: 1px solid red;
-  min-height: 500px;
   text-align: center;
 }
 .page__footer{
@@ -193,7 +192,30 @@ body{
     vertical-align: middle;
 } 
 /*end icon css*/
-
+ /*start services css  */
+.page__services{
+     border: 1px solid red;
+ }
+.services__list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    flex: 1;
+}
+.services__item{
+     text-align: center;
+ }
+ 
+ .services__item__title{
+    color:#4f94f1;
+    margin: 20px 10px 10px;
+ }
+ 
+ .services__item__desc{
+     color:#514a4a;
+     margin: 0 10px;
+ }
+ /*end services block  */ 
 .copy-right{
   color: #514a4a;
   text-decoration-line: none;
