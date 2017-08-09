@@ -1,0 +1,4 @@
+@import "./mixins/navigation.scss";
+.main-nav{
+  @include create_navigation($border_color);
+}

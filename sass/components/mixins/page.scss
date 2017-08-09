@@ -1,0 +1,17 @@
+@mixin create_page($default_page_width, $default_header_page_height, $default_footer_page_height, $border_color,$default_theme_font_color){
+  margin: auto;
+  width: $default_page_width;
+  border: 1px solid $border_color;
+  color: $default_theme_font_color;
+  &__header{
+    height: $default_header_page_height;
+    padding: 0 20px;
+  }
+  &__content{
+    text-align: center;
+  }
+  &__footer{
+    height: $default_footer_page_height;
+    text-align: center;
+  }
+}

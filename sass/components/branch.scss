@@ -1,0 +1,4 @@
+@import "mixins/branch.scss";
+.branch {
+  @include create_branch($default_align_middle);
+}

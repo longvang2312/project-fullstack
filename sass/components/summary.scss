@@ -1,0 +1,4 @@
+@import "./mixins/summary.scss";
+.summary{
+  @include create_summary();
+}

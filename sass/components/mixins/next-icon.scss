@@ -1,0 +1,12 @@
+@mixin create_next_icon() {
+    font-size: 40px;
+    right: 20px;
+    top: calc(50% - 20px);
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    &__icon:before {
+        content: '\003E';
+    }
+}

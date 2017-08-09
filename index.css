@@ -122,18 +122,21 @@ body {
 .slider__content {
 
 }
+.summary{
 
-.slider__content__photo {
+}
+
+.summary__photo {
     width: 135px;
     height: 100%;
 }
 
-.slider__content__title {
+.summary__title {
     margin: 10px 0;
     font-weight: initial;
 }
 
-.slider__content__text {
+.summary__text {
     margin: 10px 0;
 }
 

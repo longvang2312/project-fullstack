@@ -1,0 +1,4 @@
+@import "./mixins/slider.scss";
+.slider{
+  @include create_slider();
+}

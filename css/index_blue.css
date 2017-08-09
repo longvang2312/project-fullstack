@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.pull-left > * {
+  float: left; }
+
+.pull-right > * {
+  float: right; }
+
+.page {
+  margin: auto;
+  width: 1024px;
+  border: 1px solid blue;
+  color: blue; }
+  .page__header {
+    height: 50px;
+    padding: 0 20px; }
+  .page__content {
+    text-align: center; }
+  .page__footer {
+    height: 50px;
+    text-align: center; }
+
+.multi-column {
+  height: 100%; }
+  .multi-column__col-30 {
+    width: 30%;
+    float: left;
+    height: 100%; }
+  .multi-column__col-70 {
+    width: 70%;
+    float: left;
+    height: 100%; }
+  .multi-column__col-50 {
+    width: 50%;
+    float: left;
+    height: 100%; }
+
+.branch {
+  width: 100%;
+  height: 100%; }
+  .branch__logo {
+    vertical-align: middle; }
+  .branch__text {
+    vertical-align: middle; }
+
+.main-nav {
+  display: flex;
+  margin: auto; }
+  .main-nav__item {
+    padding: 10px;
+    display: inline-block; }
+    .main-nav__item__title {
+      text-decoration: none;
+      color: black; }
+    .main-nav__item--active {
+      padding: 10px;
+      display: inline-block;
+      border-bottom: 5px solid blue;
+      margin-bottom: -5px; }
+      .main-nav__item--active__title {
+        text-decoration: none;
+        color: black; }
+
+.slider {
+  position: relative;
+  height: 300px;
+  background-image: url("../image/slider.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  padding: 70px 250px; }
+
+.summary__photo {
+  width: 135px;
+  height: 100%; }
+
+.summary__title {
+  margin: 10px 0;
+  font-weight: initial; }
+
+.summary__text {
+  margin: 10px 0; }
+
+.next {
+  font-size: 40px;
+  right: 20px;
+  top: calc(50% - 20px);
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  cursor: pointer; }
+  .next__icon:before {
+    content: '\003E'; }
+
+.prev {
+  font-size: 40px;
+  left: 20px;
+  top: calc(50% - 20px);
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  cursor: pointer; }
+  .prev__icon:before {
+    content: '\003C'; }
+
+.signup-button {
+  background-color: #4f94f1;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  border: 1px solid #4f94f1;
+  cursor: pointer; }
+  .signup-button__text {
+    display: table-cell;
+    vertical-align: middle; }

@@ -1,0 +1,4 @@
+@import "./mixins/next-icon.scss";
+.next{
+  @include create_next_icon();
+}

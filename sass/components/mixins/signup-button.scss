@@ -1,0 +1,12 @@
+@mixin create_signup_button() {
+    background-color: #4f94f1;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    border: 1px solid #4f94f1;
+    cursor: pointer;
+    &__text {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
