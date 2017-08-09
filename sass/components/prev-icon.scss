@@ -1,0 +1,4 @@
+@import "./mixins/prev-icon.scss";
+.prev{
+  @include create_prev_icon();
+}

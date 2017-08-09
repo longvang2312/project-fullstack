@@ -1,0 +1,13 @@
+@mixin create_summary() {
+    &__photo {
+        width: 135px;
+        height: 100%;
+    }
+    &__title {
+        margin: 10px 0;
+        font-weight: initial;
+    }
+    &__text {
+        margin: 10px 0;
+    }
+}

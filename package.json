@@ -1,0 +1,25 @@
+{
+  "name": "project-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-default": "node-sass --include-path sass sass/themes/default/index.scss css/index_default.css",
+    "sass-blue": "node-sass --include-path sass sass/themes/blue/index.scss css/index_blue.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longvang2312/project-fullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longvang2312/project-fullstack/issues"
+  },
+  "homepage": "https://github.com/longvang2312/project-fullstack#readme",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "sass": "^1.0.0-beta.2"
+  }
+}

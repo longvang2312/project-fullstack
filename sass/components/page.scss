@@ -1,0 +1,4 @@
+@import "./mixins/page.scss";
+.page{
+  @include create_page($default_page_width, $default_header_page_height, $default_footer_page_height, $border_color,$default_theme_font_color)
+}

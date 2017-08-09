@@ -1,0 +1,10 @@
+@mixin create_branch($default_align_middle){
+  width: 100%;
+  height: 100%;
+  &__logo{
+    vertical-align: $default_align_middle;
+  }
+  &__text{
+    vertical-align: $default_align_middle;
+  }
+}

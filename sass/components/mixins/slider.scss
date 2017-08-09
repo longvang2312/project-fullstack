@@ -1,0 +1,9 @@
+@mixin create_slider() {
+    position: relative;
+    height: 300px;
+    background-image: url("../image/slider.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    padding: 70px 250px;
+}

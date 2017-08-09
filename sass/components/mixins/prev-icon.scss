@@ -1,0 +1,12 @@
+@mixin create_prev_icon() {
+     font-size: 40px;
+    left: 20px;
+    top: calc(50% - 20px);
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    &__icon:before {
+        content: '\003C';
+    }
+}
